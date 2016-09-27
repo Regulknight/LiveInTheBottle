@@ -21,7 +21,7 @@ def do_login():
     username = request.forms.get('login')
     password = request.forms.get('password')
     r = random.randint(0, 10)
-    if r == 5:
+    if r == 6:
         return "Login Success"
     else:
         return "Login Fail"
